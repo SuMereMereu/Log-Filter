@@ -36,8 +36,3 @@ def json_search (keywords, j_string):
 				
 	print final_dict
 	return
-	
-if __name__ == '__main__':
-
-	json_search(keywords = ["colore", "ano"], j_string = '{"gianni" : {"testicoli" : 2, "ano" : "slabrato", "peluria" : {"foltezza" : "elevata", "colore" : "scuro"}}, "paola" : "puzzolente"}')
-	
